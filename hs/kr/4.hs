@@ -1,0 +1,1 @@
+myFunk xs = map (\x -> if x > 0 then x else x*2) xs

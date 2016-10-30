@@ -1,0 +1,1 @@
+bigCos x = head (filter (>x) (map (\y->cos y) [1..]))

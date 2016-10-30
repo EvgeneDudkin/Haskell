@@ -1,0 +1,1 @@
+cubSum xs = foldr (\x res-> res+(x^3)) 0 xs

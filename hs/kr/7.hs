@@ -1,0 +1,1 @@
+myFunk (x:xs) = map (\(z,t) ->z) (filter (\(x,y)-> x > y ) (zip (x:xs) xs))
